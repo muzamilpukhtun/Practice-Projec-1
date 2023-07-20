@@ -1,0 +1,224 @@
+/* NAV BAR  */
+@media  screen and (max-width:730px) {
+    html {
+        font-size: 30%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        text-align: center;
+    }
+    nav{
+        display: block;
+        position: relative;
+        padding: 1.5rem 2rem;
+    }
+    .menu{
+        margin-top: 1.5rem;
+        display: none;
+    }
+    .menu.active, .toggle{
+        display: block;
+    }
+    .toggle{
+        position: absolute;
+        top:4rem;
+        right: 2rem;
+    }
+    .active{
+        display: block;
+    }
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* HERO SECTION */
+@media (max-width: 450px) {
+    html {
+        font-size: 30%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        text-align: center;
+    }
+    .hero .content{
+        flex: 1 1 40rem;
+        padding-top: 6.5rem;
+    }
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-1  */
+@media (max-width: 450px) {
+    .section-1 ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20rem; 
+    }
+} 
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-2 */
+@media (max-width: 450px) {
+    .section-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        min-height: 70vh;
+    }
+    .section-2 .images{
+        padding-bottom: 10rem;
+    }
+} 
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-3 */
+@media (max-width: 643px) {
+    .section .upper{
+        flex-direction: column;
+    }
+    .upper .para{
+        margin-left: 25rem;
+        padding-right: 0PX;
+    }
+     .lower .box {
+        flex-direction: column;
+        }
+    .lower .box .col {
+        width: 100%;
+    }
+    .lower .box .col img{
+        padding-bottom: 2rem;
+    }
+} 
+@media (max-width: 1474px) {
+      .b2 ul li i{
+        color: rgba(23,48,172);
+        margin-right:1rem;
+      }
+} 
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-4 */
+@media (max-width: 768px){
+    .section-4 .cont{
+        display: flex;
+        width: 100%;
+        flex-direction:column;
+      }
+      .cont .box{
+        padding: 5rem 0rem;
+        font-size: 6rem ;
+      }
+} 
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-6 */
+@media (max-width: 568px) {
+    .section-6 p{
+        font-size: 2rem;
+        font-family:monospace;
+        width: 60%;
+        color:whitesmoke;
+      }
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-8 */
+@media (max-width: 1062px) {
+    .section-8 .row-1{
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        gap: 2rem;
+      }
+}
+@media (max-width: 1062px) {
+    .section-8 .row-2{
+        grid-template-columns: repeat(1,2fr);
+        padding:5rem auto;
+        gap: 5rem;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------- */
+/* section-9 */
+@media (max-width: 1474px) {
+    .col h4{
+        font-size:3rem;
+      }
+      .col p{
+        font-size: 2rem;
+      }
+      .col ul li a{
+        font-size:2rem;
+      }
+    } 
+@media (max-width: 920px) {
+    .col{
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+} 
+@media (max-width: 574px) {
+    .col{
+        width: 100%;
+        padding: 0 auto;
+     }
+} 
+
+
+/* @media (max-width: 768px){
+    html {
+        font-size: 30%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .section-4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .b1{
+        position: relative;
+        width: 80%;
+        min-height:65rem;
+        flex-direction: column;
+    }
+    .b1 .text{
+        padding-bottom: 1rem;
+    }
+    .b1 .num{
+        padding-top: 1rem;
+    }
+    .low{
+        padding-bottom: 35rem;
+        flex-direction: column;
+    }
+    .UC{
+        border-right: 0.3rem solid transparent;   
+    }
+    .b2{
+        position:absolute;
+        top: 50%;
+        left: 13%;
+        width: 80%;
+    }
+    .b2 ul{
+        margin-bottom: 10rem;
+    }
+    .b2  p{
+        font-size: 1rem;
+    }
+} */
